@@ -3,7 +3,7 @@
 int main() {
     int x,y,z;
     float average;
-    average = (x+y+z)/3;
+    average = (x+y+z)/3.0;
     scanf("%d" ,&x);
     scanf("%d" ,&y);
     scanf("%d" ,&z);
