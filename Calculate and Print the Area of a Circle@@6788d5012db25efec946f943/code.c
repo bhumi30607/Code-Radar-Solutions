@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float x;
+    float x, area;
     scanf("%f", &x);
     
     area = (x**2 * pi);
