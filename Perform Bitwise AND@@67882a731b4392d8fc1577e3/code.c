@@ -5,6 +5,6 @@ int main() {
     scanf("%d", &x);
     scanf("%d", &y);
     int result = x & y;
-    prinf("%d \n", result);
+    printf("%d \n", result);
     return 0;
 }
