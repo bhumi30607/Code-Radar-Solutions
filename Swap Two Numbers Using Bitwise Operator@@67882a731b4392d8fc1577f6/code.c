@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int x,y;
-    scanf("%d", &x);
-    scanf("%d", &y);
-    int result = x~y;
+    int a,b;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    int result = a~b;
     printf("%d", result);
     return 0;
 }
