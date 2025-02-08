@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char var a,b;
+    int a,b;
     scanf("%d", &a);
     scanf("%d", &b);
     result = a << b;
