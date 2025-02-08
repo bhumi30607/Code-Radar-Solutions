@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int num;
-    scanf("%d", &num);
-    printf("%d \n", num);
-    printBinary(num);
+    int number;
+    scanf("%d", &number);
+    printf("%d \n", number);
+    printBinary(number);
     return 0;
 }
