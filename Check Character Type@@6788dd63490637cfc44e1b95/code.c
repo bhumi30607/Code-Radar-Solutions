@@ -11,7 +11,7 @@ int main() {
             printf("Vowel \n");
         }
         else{
-            printf("Consonan \n");
+            printf("Consonant \n");
         }
     }
     else {
