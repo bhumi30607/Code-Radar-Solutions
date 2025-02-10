@@ -10,7 +10,7 @@ int main() {
         if(x=='A' || x=='E' || x=='I' || x=='O' || x=='U' || x=='a' || x=='e' || x=='i' || x=='o'|| x=='u') {
             printf("Vowel \n");
         }
-        else{
+        else {
             printf("Consonant \n");
         }
     }
