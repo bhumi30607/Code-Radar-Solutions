@@ -7,6 +7,6 @@ int main() {
     for(int i = 1; i<= N; i++) {
         sum +=1;
     }
-    print("%d", i,sum);
+    print("%d", N ,sum);
     return 0;
 }
