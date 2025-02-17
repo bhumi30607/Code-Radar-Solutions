@@ -3,7 +3,7 @@
 int min() {
     int N;
     scanf("%d", &N);
-    for(int i = N; i <= N i++) {
+    for(int i = 1; i <= N i++) {
         for(int j = i; j <N; j++ ) {
             printf(" ");
         }
