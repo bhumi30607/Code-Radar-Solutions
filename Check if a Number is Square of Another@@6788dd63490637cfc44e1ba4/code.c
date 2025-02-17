@@ -7,7 +7,7 @@ int main() {
     if(y=x*x){
         printf("Yes");
     }
-    else{
+    else {
         printf("No");
     }
     return 0;
