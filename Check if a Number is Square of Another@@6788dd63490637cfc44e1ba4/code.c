@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-    int x,y;
+    int x, y;
     scanf("%d", &x);
     scanf("%d", &y);
     if(y=x*x){
