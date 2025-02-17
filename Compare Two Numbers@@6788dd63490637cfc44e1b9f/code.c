@@ -7,8 +7,11 @@ int main() {
     if(num1 == num2) {
         printf("Equal");
     }
-    else {
+    else if(num1 > num2) {
         printf("First");
+    }
+    else {
+        printf("Second");
     }
     return 0;
 }
