@@ -1,16 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int min() {
-    int N;
-    scanf("%d", &N);
-    for(int i = 1; i <= N i++) {
-        for(int j = i; j <N; j++ ) {
+int main() {
+    int i, j, n;
+
+    // Ask for the number of rows in the pyramid
+    printf("Enter the number of rows: ");
+    scanf("%d", &n);
+
+    // Loop through rows
+    for(i = 1; i <= n; i++) {
+        // Print spaces before stars
+        for(j = 1; j <= n - i; j++) {
             printf(" ");
         }
-            for(int k =1; k <= (2*i - 1); k++) {
-                printf("*");
-            }
+        // Print stars
+        for(j = 1; j <= (2 * i - 1); j++) {
+            printf("*");
+        }
+        // Move to the next line after each row
         printf("\n");
     }
+
     return 0;
 }
