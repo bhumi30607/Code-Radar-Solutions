@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int i, j, n;
+    int N;
 
-    // Ask for the number of rows in the pyramid
-    printf("Enter the number of rows: ");
-    scanf("%d", &n);
+    scanf("%d", &N);
 
     // Loop through rows
     for(i = 1; i <= n; i++) {
