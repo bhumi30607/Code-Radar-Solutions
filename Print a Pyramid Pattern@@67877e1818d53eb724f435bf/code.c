@@ -6,9 +6,9 @@ int main() {
     scanf("%d", &N);
 
     // Loop through rows
-    for(int i = 1; i <= n; i++) {
+    for(int i = 1; i <= N; i++) {
         // Print spaces before stars
-        for(int j = 1; j <= n - i; j++) {
+        for(int j = 1; j <= N - i; j++) {
             printf(" ");
         }
         // Print stars
